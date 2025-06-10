@@ -42,7 +42,8 @@ import AboutPage from './Pages/AboutPage'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import CoursesPage from './Pages/CoursesPage'
 import ContactPage from './Pages/ContactPage'
-import AdmissionsPage from './Pages/AdmissionPage'
+import AdmissionPage from './Pages/AdmissionPage'
+
 const App=() => {
     return(
         <div>
@@ -52,7 +53,7 @@ const App=() => {
                 <Route path="/about" element={<AboutPage/>} />
                 <Route path="/courses" element={<CoursesPage/>} />
                 <Route path="/contact" element={<ContactPage/>} />
-                <Route path="/admission" element={<AdmissionsPage/>} />
+                <Route path="/admissionpage" element={<AdmissionPage/>} />
             </Routes>
             </BrowserRouter>
         </div>
